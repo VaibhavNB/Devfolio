@@ -2,7 +2,7 @@ import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 
 import TitleHeader from "../components/TitleHeader.jsx";
-import ContactExperience from "../components/models/contact/ContactExperience.jsx"; 
+import ContactExperience from "../components/Models/contact/ContactExperience.jsx"; 
 
 const Contact = () => {
   const formRef = useRef(null);
@@ -13,13 +13,14 @@ const Contact = () => {
     message: "",
   });
 
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setForm({ ...form, [name]: value });
   };
 
   const handleSubmit = async (e) => {
-    e.preventDefault();
+    e.preventDefault(); 
     setLoading(true); // Show loading state
 
     try {
