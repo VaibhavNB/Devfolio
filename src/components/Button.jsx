@@ -1,4 +1,4 @@
-const Button = ({text, className, id}) => {
+const Button = ({text, className, id, imgSrc}) => {
   return (
     <a role="button" tabIndex="0" onClick={(e)=>{
       e.preventDefault();
@@ -16,7 +16,7 @@ const Button = ({text, className, id}) => {
         <div className="bg-circle" />
           <p className="text">{text}</p>
           <div className="arrow-wrapper">
-            <img src="/images/arrow-down.svg" alt="arrow" />
+            <img src={imgSrc} alt="arrow" />
           </div>
         </div>
       

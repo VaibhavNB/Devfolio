@@ -18,14 +18,15 @@ const navLinks = [
 ];
 
 const words = [
-  { text: "Ideas", imgPath: "/images/ideas.svg" },
-  { text: "Concepts", imgPath: "/images/concepts.svg" },
-  { text: "Designs", imgPath: "/images/designs.svg" },
-  { text: "Code", imgPath: "/images/code.svg" },
-  { text: "Ideas", imgPath: "/images/ideas.svg" },
-  { text: "Concepts", imgPath: "/images/concepts.svg" },
-  { text: "Designs", imgPath: "/images/designs.svg" },
-  { text: "Code", imgPath: "/images/code.svg" },
+  { id:1, text: "Ideas", imgPath: "/images/ideas.svg" },
+  { id:2,text: "Concepts", imgPath: "/images/concepts.svg" },
+  { id:3,text: "Designs", imgPath: "/images/designs.svg" },
+  { id:4,text: "Code", imgPath: "/images/code.svg" },
+  { id:5, text: "Ideas", imgPath: "/images/ideas.svg" },
+  { id:6,text: "Concepts", imgPath: "/images/concepts.svg" },
+  { id:7,text: "Designs", imgPath: "/images/designs.svg" },
+  { id:8,text: "Code", imgPath: "/images/code.svg" },
+  
 ];
 
 const counterItems = [
@@ -37,36 +38,91 @@ const counterItems = [
 
 const logoIconsList = [
   {
+    id: 1,
     imgPath: "/images/logos/company-logo-1.png",
   },
   {
+    id: 2,
     imgPath: "/images/logos/company-logo-2.png",
   },
   {
+    id: 3,
     imgPath: "/images/logos/company-logo-3.png",
   },
   {
+    id: 4,
     imgPath: "/images/logos/company-logo-4.png",
   },
   {
+    id: 5,
     imgPath: "/images/logos/company-logo-5.png",
   },
   {
+    id: 6,
     imgPath: "/images/logos/company-logo-6.png",
   },
   {
+    id: 7,
     imgPath: "/images/logos/company-logo-7.png",
   },
   {
+    id: 8,
     imgPath: "/images/logos/company-logo-8.png",
   },
   {
+    id: 9,
     imgPath: "/images/logos/company-logo-9.png",
   },
   {
+    id: 10,
     imgPath: "/images/logos/company-logo-10.png",
   },
   {
+    id: 11,
+    imgPath: "/images/logos/company-logo-11.png",
+  },
+  {
+    id: 12,
+    imgPath: "/images/logos/company-logo-1.png",
+  },
+  {
+    id: 13,
+    imgPath: "/images/logos/company-logo-2.png",
+  },
+  {
+    id: 14,
+    imgPath: "/images/logos/company-logo-3.png",
+  },
+  {
+    id: 15,
+    imgPath: "/images/logos/company-logo-4.png",
+  },
+  {
+    id: 16,
+    imgPath: "/images/logos/company-logo-5.png",
+  },
+  {
+    id: 17,
+    imgPath: "/images/logos/company-logo-6.png",
+  },
+  {
+    id: 18,
+    imgPath: "/images/logos/company-logo-7.png",
+  },
+  {
+    id: 19,
+    imgPath: "/images/logos/company-logo-8.png",
+  },
+  {
+    id: 20,
+    imgPath: "/images/logos/company-logo-9.png",
+  },
+  {
+    id: 21,
+    imgPath: "/images/logos/company-logo-10.png",
+  },
+  {
+    id: 22,
     imgPath: "/images/logos/company-logo-11.png",
   },
 ];
